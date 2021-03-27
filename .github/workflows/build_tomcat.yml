@@ -19,7 +19,7 @@ jobs:
     - name: Check out Apache Tomcat
       uses: actions/checkout@v2
       with:
-        repository: apache/tomcat # Repository name with owner
+        repository: tomcat # Repository name with owner
         ref: master               # The branch, tag or SHA to checkout
         path: ./tomcat            # Relative path under $GITHUB_WORKSPACE
 
